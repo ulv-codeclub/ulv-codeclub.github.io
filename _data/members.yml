@@ -1,9 +1,11 @@
 - name: Mumin Khan
-  email: mumin.khan@laverne.edu
   role: President
+  email: mumin.khan@laverne.edu
+  github: n/a
   bio: "I am awesome"
 
 - name: Jacob Bogdanoff
+  role: n/a
   email: jacob.bogdanoff@laverne.edu
   github: m48
   bio: "Hi, I'm Jacob Bogdanoff. I've been programming since I've been about 7. I started with Visual Basic 6, then switched to Python and various other programming languages. Currently, I'm best at Python, HTML+CSS, and JavaScript. When I'm not coding, I draw comics, write, and run a small web series."
