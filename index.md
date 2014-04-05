@@ -10,20 +10,20 @@ We're divided into two groups: **hackers**, members experienced with programming
 We aim to teach computer programming to a larger crowd and contribute our computer skills around campus. Read [more details here.](about.html)
 
 ## Meeting Times
-**Hackers group:** Mondays, 3 PM to 4 PM in FH 207
-**Coders group:** Fridays, ??? in FH 207
+* **Hackers group:** Mondays, 3 PM to 4 PM in FH 207
+* **Coders group:** Fridays, ??? in FH 207
 
 <div id="news-container">
 	<div id="news-events">
-		## Upcoming Events
-		*None*
+		<h3>Upcoming Events</h3>
+		<em>None</em>
 	</div>
 
-	<div id="news-events">
-		## Recent Blog Posts
+	<div id="news-blog">
+		<h3>Recent Blog Posts</h3>
 		<ul>
 		  {% for post in site.posts %}
-		    <li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br>By {{ post.author }}</li>
+		    <li><a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date_to_string }} - by {{ post.author }}</li>
 		  {% endfor %}
 		</ul>
 	</div>
