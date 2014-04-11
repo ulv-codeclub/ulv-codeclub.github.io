@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<a href="/blog.html">Back to blog list</a>
+<a href="/blog.html">&lt; Back to blog list</a>
 
-<h2>{{ post.title }}</h2>
-<h3>by {{ post.author }}</h3>
+<h2>{{ page.title }}</h2>
+<h3>{{ page.date | date_to_string }} - by {{ page.author }}</h3>
 
 {{ content }}
