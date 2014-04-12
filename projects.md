@@ -21,7 +21,7 @@ These are projects we are working on.
 {% endunless %}
 
 {% unless project.url == "n/a" %}
-**URL:** {{ project.url }}
+**URL:** <a href="{{ project.url }}">{{ project.url }}</a>
 {% endunless %}
 
 {{ project.desc }}

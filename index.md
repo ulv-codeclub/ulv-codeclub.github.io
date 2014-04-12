@@ -29,6 +29,6 @@ We aim to teach computer programming to a larger crowd and contribute our comput
 			</li>
 		  {% endfor %}
 		</ul>
-		<a href="/blog/">See all blog posts</a>
+		<p><a href="/blog/">See all blog posts</a></p>
 	</div>
 </div>
